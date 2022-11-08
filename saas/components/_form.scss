@@ -1,0 +1,152 @@
+/* Form for modal window */
+
+.form__label {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+
+  &--checkbox {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+
+.form__text {
+  margin-bottom: 4px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+
+  color: #757575;
+
+  &--agreement {
+    font-size: 14px;
+
+    letter-spacing: 0.03em;
+  }
+}
+
+.form__link {
+  color: #2196f3;
+}
+
+.form__field {
+  width: 100%;
+  height: 40px;
+  padding: 11px 12px;
+  padding-left: 28px;
+  outline: none;
+  cursor: pointer;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--textarea {
+    resize: none;
+    height: 120px;
+  }
+
+  &:hover,
+  &:focus {
+    border: 2px solid #2196f3;
+  }
+}
+
+.form__logo {
+  position: absolute;
+  top: 30px;
+  left: 11px;
+
+  width: 18px;
+  height: 18px;
+
+  fill: #212121;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--checked {
+    width: 11px;
+    height: 8px;
+  }
+
+  .form__field:hover + &,
+  .form__field:focus + & {
+    fill: #2196f3;
+  }
+}
+
+.form__input--checked {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form__input--custom-checked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 16px;
+  height: 15px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 2px;
+  margin-right: 7px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .form__input--checked:focus + & {
+    border-color: #2196f3;
+  }
+
+  .form__input--checked:checked + & {
+    border-color: #2196f3;
+    background-color: #2196f3;
+  }
+}
+
+.form__button {
+  width: 200px;
+  height: 50px;
+
+  background: #2196f3;
+  border: 0;
+  border-radius: 4px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
