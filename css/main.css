@@ -502,6 +502,7 @@ p {
 }
 
 .top-news {
+  display: flex;
   margin-right: auto;
   margin-left: auto;
 }
@@ -523,5 +524,25 @@ p {
 .all-news {
   display: flex;
   justify-content: space-between;
+}
+
+.advertise {
+  display: flex;
+  background-color: tomato;
+}
+
+.editor-pics {
+  display: flex;
+  background-color: aqua;
+}
+
+.categories-top {
+  display: flex;
+  background-color: burlywood;
+}
+
+.videos {
+  display: flex;
+  background-color: aqua;
 }
 /*# sourceMappingURL=main.css.map */
