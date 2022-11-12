@@ -9,7 +9,8 @@
   --section-background-color: #171821;
 }
 
-.socials__list, .header__list, .examples__list, .footer__list {
+.nav__list, .slider__list, .news__list,
+.posts__list, .filter__list, .socials__list, .examples__list, .footer__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -62,6 +63,41 @@ p {
   margin-right: auto;
 }
 
+.nav__list {
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+
+.slider__list {
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+
+.news__list,
+.posts__list {
+  display: flex;
+  padding: 0px;
+}
+
+.news__list--vertical,
+.posts__list--vertical {
+  flex-direction: column;
+}
+
+.filter__list {
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+
+.socials__list {
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+
 .sub-title {
   font-weight: 700;
   font-size: 36px;
@@ -72,7 +108,7 @@ p {
   color: var(--main-black-color);
 }
 
-.sub-title--invisible {
+.invisible {
   display: none;
 }
 
@@ -123,9 +159,7 @@ p {
 
 /* header */
 .header {
-  padding-top: 24px;
   padding-bottom: 25px;
-  background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
 
@@ -138,13 +172,10 @@ p {
 
 .header__bottom {
   display: flex;
+  align-items: baseline;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
+/*---OLD---*/
 .link--top-logo {
   margin-right: 93px;
 }
@@ -167,12 +198,6 @@ p {
 
 .logo__text--black {
   color: #000000;
-}
-
-.header__list {
-  display: flex;
-  padding: 0px;
-  margin-left: auto;
 }
 
 .header__item {
@@ -299,8 +324,7 @@ p {
 /* footer*/
 .footer {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  justify-content: space-around;
   background-color: var(--section-background-color);
 }
 
@@ -470,5 +494,34 @@ p {
 .form__button:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.flash-news {
+  display: flex;
+  background-color: aqua;
+}
+
+.top-news {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.top-news__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-news__wrapper {
+  display: flex;
+}
+
+.all-news {
+  display: flex;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */

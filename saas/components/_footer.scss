@@ -2,8 +2,7 @@
 
 .footer {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  justify-content: space-around;
   background-color: var(--section-background-color);
 }
 

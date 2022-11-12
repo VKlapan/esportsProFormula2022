@@ -1,9 +1,7 @@
 /* header */
 
 .header {
-  padding-top: 24px;
   padding-bottom: 25px;
-  background-color: #ffffff;
   border-bottom: 1px solid #ececec;
   &__top {
     display: flex;
@@ -13,14 +11,11 @@
   }
   &__bottom {
     display: flex;
+    align-items: baseline;
   }
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
+/*---OLD---*/
 .link--top-logo {
   @extend %link;
   margin-right: 93px;
@@ -44,13 +39,6 @@
   &--black {
     color: #000000;
   }
-}
-
-.header__list {
-  @extend %list;
-  display: flex;
-  padding: 0px;
-  margin-left: auto;
 }
 
 .header__item {

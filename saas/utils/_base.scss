@@ -29,6 +29,43 @@ p {
   margin-right: auto;
 }
 
+.nav__list {
+  @extend %list;
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+.slider__list {
+  @extend %list;
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+
+.news__list,
+.posts__list {
+  @extend %list;
+  display: flex;
+  padding: 0px;
+  &--vertical {
+    flex-direction: column;
+  }
+}
+
+.filter__list {
+  @extend %list;
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+
+.socials__list {
+  @extend %list;
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+
 .sub-title {
   font-weight: 700;
   font-size: 36px;
@@ -39,8 +76,8 @@ p {
   margin-bottom: 50px;
 
   color: var(--main-black-color);
+}
 
-  &--invisible {
-    display: none;
-  }
+.invisible {
+  display: none;
 }
