@@ -5,6 +5,15 @@
   padding-bottom: 25px;
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: var(--section-background-color);
+  }
+  &__bottom {
+    display: flex;
+  }
 }
 
 .header-container {
