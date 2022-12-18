@@ -1,11 +1,26 @@
 :root {
   /* fonts */
-  --main-font: Roboto, sans-serif;
+  /* 
+FontAwesome Regular
+
+Montserrat Bold
+Montserrat SemiBold
+Montserrat Medium
+Montserrat Regular
+
+Source Sans Pro Bold
+Source Sans Pro SemiBold
+Source Sans Pro Italic
+Source Sans Pro Regular
+
+  */
+  --title-font: Montserrat, sans-serif;
+  --main-font: Source Sans Pro, sans-serif;
   --secondary-font: Raleway, sans-serif;
 
   /* colors*/
-  --main-black-color: #212121;
-  --main-color: #757575;
+  --main-title-color: #171821;
+  --main-color: #54555e;
   --nav-hover-color: #2196f3;
-  --section-background-color: #171821;
+  --header-top-background-color: #171821;
 }

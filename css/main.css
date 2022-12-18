@@ -1,12 +1,27 @@
 :root {
   /* fonts */
-  --main-font: Roboto, sans-serif;
+  /* 
+FontAwesome Regular
+
+Montserrat Bold
+Montserrat SemiBold
+Montserrat Medium
+Montserrat Regular
+
+Source Sans Pro Bold
+Source Sans Pro SemiBold
+Source Sans Pro Italic
+Source Sans Pro Regular
+
+  */
+  --title-font: Montserrat, sans-serif;
+  --main-font: Source Sans Pro, sans-serif;
   --secondary-font: Raleway, sans-serif;
   /* colors*/
-  --main-black-color: #212121;
-  --main-color: #757575;
+  --main-title-color: #171821;
+  --main-color: #54555e;
   --nav-hover-color: #2196f3;
-  --section-background-color: #171821;
+  --header-top-background-color: #171821;
 }
 
 .nav__list, .slider__list, .news__list,
@@ -38,7 +53,7 @@
 body {
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71;
   /*24px or 171% */
   letter-spacing: 0.03em;
@@ -67,6 +82,14 @@ p {
   display: flex;
   padding: 0px;
   margin-left: auto;
+}
+
+.nav__item {
+  margin-right: 23px;
+}
+
+.last__item {
+  margin-right: 0;
 }
 
 .slider__list {
@@ -167,12 +190,12 @@ p {
 
 .header--top {
   color: white;
-  background-color: var(--section-background-color);
+  background-color: var(--header-top-background-color);
 }
 
 .header--bottom {
-  color: #000000;
-  font-weight: 400;
+  color: var(--main-title-color);
+  font-weight: 700;
 }
 
 .header__wrapper {
@@ -185,6 +208,33 @@ p {
 
 .header__wrapper--bottom {
   align-items: baseline;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header__burger-logo {
+  width: 18px;
+  height: 12px;
+  margin-right: 32px;
+}
+
+.logo--header {
+  margin-right: 73px;
+}
+
+.logo__text {
+  font-family: var(--title-font);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.logo__text--left {
+  font-size: 16px;
+  color: var(--main-title-color);
+}
+
+.logo__text--right {
+  font-size: 26px;
+  color: red;
 }
 
 /*---OLD---*/
@@ -195,21 +245,6 @@ p {
 .link--bottom-logo {
   display: block;
   margin-bottom: 20px;
-}
-
-.logo__text {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  color: #2196f3;
-}
-
-.logo__text--white {
-  color: #ffffff;
-}
-
-.logo__text--black {
-  color: #000000;
 }
 
 .header__item {

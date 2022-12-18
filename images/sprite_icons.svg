@@ -1,0 +1,12 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-hamburger-converted" viewBox="0 0 41 32">
+<title>hamburger-converted</title>
+<path d="M0 2.297v2.297h41.143v-4.594h-41.143v2.297zM6.857 16.011v2.297h34.286v-4.594h-34.286v2.297zM0 29.691v2.263h41.143v-4.526h-41.143v2.263z"></path>
+</symbol>
+<symbol id="icon-hamburger_opt" viewBox="0 0 41 32">
+<title>hamburger_opt</title>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4.5714" d="M0 2.286h41.143M6.857 16h34.286M0 29.714h41.143"></path>
+</symbol>
+</defs>
+</svg>
