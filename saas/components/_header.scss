@@ -4,6 +4,7 @@
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
   &--top {
+    padding-top: 6px;
     color: white;
     background-color: var(--header-top-background-color);
   }
@@ -30,6 +31,10 @@
   margin-right: 32px;
 }
 
+.socials_item-logo {
+  width: 18px;
+  height: 18px;
+}
 .logo--header {
   margin-right: 73px;
 }

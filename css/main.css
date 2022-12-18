@@ -123,6 +123,10 @@ p {
   margin-left: auto;
 }
 
+.socials_item {
+  margin-right: 6px;
+}
+
 .sub-title {
   font-weight: 700;
   font-size: 36px;
@@ -189,6 +193,7 @@ p {
 }
 
 .header--top {
+  padding-top: 6px;
   color: white;
   background-color: var(--header-top-background-color);
 }
@@ -215,6 +220,11 @@ p {
   width: 18px;
   height: 12px;
   margin-right: 32px;
+}
+
+.socials_item-logo {
+  width: 18px;
+  height: 18px;
 }
 
 .logo--header {
