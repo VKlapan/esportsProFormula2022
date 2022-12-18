@@ -1,4 +1,7 @@
 .all-news {
-  display: flex;
-  justify-content: space-between;
+  background-color: darkseagreen;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
 }

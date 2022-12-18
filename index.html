@@ -26,56 +26,66 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__top">
-        <div class="container header__top">
-          <nav class="header__nav-top">
-            <ul class="nav__list">
-              <li class="nav__item">News</li>
-              <li class="nav__item">About</li>
-              <li class="nav__item">Advertise</li>
-              <li class="nav__item">Contact</li>
-            </ul>
-          </nav>
-          <div class="header__socials">
-            <ul class="socials__list">
-              <li class="socials_item"><a href="">FB</a></li>
-              <li class="socials_item"><a href="">TW</a></li>
-              <li class="socials_item"><a href="">IG</a></li>
-            </ul>
+      <div class="header--top">
+        <div class="container">
+          <div class="header__wrapper header__wrapper--top">
+            <nav class="header__nav-top">
+              <ul class="nav__list">
+                <li class="nav__item">News</li>
+                <li class="nav__item">About</li>
+                <li class="nav__item">Advertise</li>
+                <li class="nav__item">Contact</li>
+              </ul>
+            </nav>
+            <div class="header__socials">
+              <ul class="socials__list">
+                <li class="socials_item"><a href="">FB</a></li>
+                <li class="socials_item"><a href="">TW</a></li>
+                <li class="socials_item"><a href="">IG</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="header__bottom">
-        <div class="container header__bottom">
-          <div class="header__burger-menu">BURGER</div>
-          <div class="logo--header">
-            <a class="logo__link" href="./index.html"
-              ><span class="logo__text">eSports</span
-              ><span class="logo__text logo__text--black">ProFormula</span></a
-            >
+      <div class="header--bottom">
+        <div class="container">
+          <div class="header__wrapper header__wrapper--bottom">
+            <div class="header__burger-menu">BURGER</div>
+            <div class="logo--header">
+              <a class="logo__link" href="./index.html"
+                ><span class="logo__text">eSports</span
+                ><span class="logo__text logo__text--black">ProFormula</span></a
+              >
+            </div>
+            <nav class="header__nav-main">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="" class="nav__link"></a>HOME</li>
+                <li class="nav__item">
+                  <a href="" class="nav__link"></a>ECHAMPS
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link"></a>EHARD
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link"></a>ESOFT
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link"></a>WARMUP LEAGUE
+                </li>
+              </ul>
+            </nav>
           </div>
-          <nav class="header__nav-main">
-            <ul class="nav__list">
-              <li class="nav__item"><a href="" class="nav__link"></a>HOME</li>
-              <li class="nav__item">
-                <a href="" class="nav__link"></a>ECHAMPS
-              </li>
-              <li class="nav__item"><a href="" class="nav__link"></a>EHARD</li>
-              <li class="nav__item"><a href="" class="nav__link"></a>ESOFT</li>
-              <li class="nav__item">
-                <a href="" class="nav__link"></a>WARMUP LEAGUE
-              </li>
-            </ul>
-          </nav>
         </div>
       </div>
     </header>
     <main>
       <section class="main">
         <section class="flash-news">
-          <div class="container flash-news">
-            <div class="flash-news__icon">flashNewsIcon</div>
-            <div class="flash-news__content">Text of flash news</div>
+          <div class="container">
+            <div class="flash-news__wrapper">
+              <div class="flash-news__icon">flashNewsIcon</div>
+              <div class="flash-news__content">Text of flash news</div>
+            </div>
           </div>
         </section>
 
@@ -134,129 +144,131 @@
         </section>
 
         <section class="latest-news">
-          <div class="container latest-news">
-            <div class="latest-news__block--main">
-              <div class="latest-news__wrapper">
-                <h2 class="latest-news__title">LATEST NEWS</h2>
-                <ul class="filter__list">
-                  <li class="filter__item">All</li>
-                  <li class="filter__item">World</li>
-                  <li class="filter__item">Lifestyle</li>
-                  <li class="filter__item">Business</li>
-                  <li class="filter__item">Fashion</li>
-                </ul>
-              </div>
-              <ul class="news__list news__list--vertical">
-                <li class="news__item">
-                  <img class="news__image" />
-                  <div class="lable">LABLE</div>
-                  <div class="news__text">
-                    <p class="news__title">LATEST NEWS 1</p>
+          <div class="container">
+            <div class="latest-news__wrapper">
+              <div class="latest-news__block--main">
+                <div class="latest-news__wrapper">
+                  <h2 class="latest-news__title">LATEST NEWS</h2>
+                  <ul class="filter__list">
+                    <li class="filter__item">All</li>
+                    <li class="filter__item">World</li>
+                    <li class="filter__item">Lifestyle</li>
+                    <li class="filter__item">Business</li>
+                    <li class="filter__item">Fashion</li>
+                  </ul>
+                </div>
+                <ul class="news__list news__list--vertical">
+                  <li class="news__item">
+                    <img class="news__image" />
+                    <div class="lable">LABLE</div>
+                    <div class="news__text">
+                      <p class="news__title">LATEST NEWS 1</p>
+                      <p class="news__details">
+                        <span class="news_author">by author</span
+                        ><span class="news__data">2022-11-10</span>
+                      </p>
+                      <p class="news__anons">anontation of news</p>
+                    </div>
+                  </li>
+                  <li class="news__item">
+                    <img class="news__image" />
+                    <div class="lable">LABLE</div>
+                    <p class="news__title">LATEST NEWS 2</p>
                     <p class="news__details">
                       <span class="news_author">by author</span
                       ><span class="news__data">2022-11-10</span>
                     </p>
                     <p class="news__anons">anontation of news</p>
-                  </div>
-                </li>
-                <li class="news__item">
-                  <img class="news__image" />
-                  <div class="lable">LABLE</div>
-                  <p class="news__title">LATEST NEWS 2</p>
-                  <p class="news__details">
-                    <span class="news_author">by author</span
-                    ><span class="news__data">2022-11-10</span>
-                  </p>
-                  <p class="news__anons">anontation of news</p>
-                </li>
-                <li class="news__item">
-                  <img class="news__image" />
-                  <div class="lable">LABLE</div>
-                  <p class="news__title">LATEST NEWS 3</p>
-                  <p class="news__details">
-                    <span class="news_author">by author</span
-                    ><span class="news__data">2022-11-10</span>
-                  </p>
-                  <p class="news__anons">anontation of news</p>
-                </li>
-                <li class="news__item">
-                  <img class="news__image" />
-                  <div class="lable">LABLE</div>
-                  <p class="news__title">LATEST NEWS 4</p>
-                  <p class="news__details">
-                    <span class="news_author">by author</span
-                    ><span class="news__data">2022-11-10</span>
-                  </p>
-                  <p class="news__anons">anontation of news</p>
-                </li>
-              </ul>
-            </div>
-            <div class="latest-news__block--right">
-              <div class="popular-posts">
-                <h3 class="popular-posts__title">Popular Posts</h3>
-                <ul class="posts__list posts__list--vertical">
-                  <li class="posts__item">
-                    <img class="posts__image" />
-                    <div class="post__text">
-                      <p class="post__title">Post 1 Title</p>
-                      <p class="post__details">
-                        <span class="post_author">by author</span
-                        ><span class="post__data">2022-11-10</span>
-                      </p>
-                    </div>
                   </li>
-                  <li class="posts__item">
-                    <img class="posts__image" />
-                    <div class="post__text">
-                      <p class="post__title">Post 2 Title</p>
-                      <p class="post__details">
-                        <span class="post_author">by author</span
-                        ><span class="post__data">2022-11-10</span>
-                      </p>
-                    </div>
+                  <li class="news__item">
+                    <img class="news__image" />
+                    <div class="lable">LABLE</div>
+                    <p class="news__title">LATEST NEWS 3</p>
+                    <p class="news__details">
+                      <span class="news_author">by author</span
+                      ><span class="news__data">2022-11-10</span>
+                    </p>
+                    <p class="news__anons">anontation of news</p>
                   </li>
-                  <li class="posts__item">
-                    <img class="posts__image" />
-                    <div class="post__text">
-                      <p class="post__title">Post 3 Title</p>
-                      <p class="post__details">
-                        <span class="post_author">by author</span
-                        ><span class="post__data">2022-11-10</span>
-                      </p>
-                    </div>
-                  </li>
-                  <li class="posts__item">
-                    <img class="posts__image" />
-                    <div class="post__text">
-                      <p class="post__title">Post 4 Title</p>
-                      <p class="post__details">
-                        <span class="post_author">by author</span
-                        ><span class="post__data">2022-11-10</span>
-                      </p>
-                    </div>
+                  <li class="news__item">
+                    <img class="news__image" />
+                    <div class="lable">LABLE</div>
+                    <p class="news__title">LATEST NEWS 4</p>
+                    <p class="news__details">
+                      <span class="news_author">by author</span
+                      ><span class="news__data">2022-11-10</span>
+                    </p>
+                    <p class="news__anons">anontation of news</p>
                   </li>
                 </ul>
               </div>
-              <div class="newsletter">
-                <h3 class="newsletter__title">Newsletter</h3>
-                <div class="newsletter__description">
-                  Subscribe for our newsletter
+              <div class="latest-news__block--right">
+                <div class="popular-posts">
+                  <h3 class="popular-posts__title">Popular Posts</h3>
+                  <ul class="posts__list posts__list--vertical">
+                    <li class="posts__item">
+                      <img class="posts__image" />
+                      <div class="post__text">
+                        <p class="post__title">Post 1 Title</p>
+                        <p class="post__details">
+                          <span class="post_author">by author</span
+                          ><span class="post__data">2022-11-10</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="posts__item">
+                      <img class="posts__image" />
+                      <div class="post__text">
+                        <p class="post__title">Post 2 Title</p>
+                        <p class="post__details">
+                          <span class="post_author">by author</span
+                          ><span class="post__data">2022-11-10</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="posts__item">
+                      <img class="posts__image" />
+                      <div class="post__text">
+                        <p class="post__title">Post 3 Title</p>
+                        <p class="post__details">
+                          <span class="post_author">by author</span
+                          ><span class="post__data">2022-11-10</span>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="posts__item">
+                      <img class="posts__image" />
+                      <div class="post__text">
+                        <p class="post__title">Post 4 Title</p>
+                        <p class="post__details">
+                          <span class="post_author">by author</span
+                          ><span class="post__data">2022-11-10</span>
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-                <form class="newsletter__form">
-                  <input type="email" />
-                  <button type="subscribe">Sing Up</button>
-                </form>
-              </div>
-              <div class="socials-block">
-                <h3 class="social-block__title">Let's hang out on social</h3>
-                <ul class="socials__list">
-                  <li class="socials-list__item">TW</li>
-                  <li class="socials-list__item">G+</li>
-                  <li class="socials-list__item">PN</li>
-                  <li class="socials-list__item">FB</li>
-                  <li class="socials-list__item">IG</li>
-                  <li class="socials-list__item">LI</li>
-                </ul>
+                <div class="newsletter">
+                  <h3 class="newsletter__title">Newsletter</h3>
+                  <div class="newsletter__description">
+                    Subscribe for our newsletter
+                  </div>
+                  <form class="newsletter__form">
+                    <input type="email" />
+                    <button type="subscribe">Sing Up</button>
+                  </form>
+                </div>
+                <div class="socials-block">
+                  <h3 class="social-block__title">Let's hang out on social</h3>
+                  <ul class="socials__list">
+                    <li class="socials-list__item">TW</li>
+                    <li class="socials-list__item">G+</li>
+                    <li class="socials-list__item">PN</li>
+                    <li class="socials-list__item">FB</li>
+                    <li class="socials-list__item">IG</li>
+                    <li class="socials-list__item">LI</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -269,18 +281,16 @@
         </section>
 
         <section class="editor-pics">
-          <div class="container editors-pics">
-            <h2 class="editors-pics__title">EDITORS PICS</h2>
-            <div class="editors-pics__slider">
-              <div class="slider__wrapper">
-                <div class="slider__navigation">"<"slider_nav">"</div>
-                <ul class="slider__list">
-                  <li class="slider__item">slide 1</li>
-                  <li class="slider__item">slide 2</li>
-                  <li class="slider__item">slide 3</li>
-                  <li class="slider__item">slide 4</li>
-                </ul>
-              </div>
+          <div class="container">
+            <h2 class="editor-pics__title">EDITORS PICS</h2>
+            <div class="editor-pics__slider">
+              <div class="slider__navigation">"<"slider_nav">"</div>
+              <ul class="slider__list">
+                <li class="slider__item">slide 1</li>
+                <li class="slider__item">slide 2</li>
+                <li class="slider__item">slide 3</li>
+                <li class="slider__item">slide 4</li>
+              </ul>
             </div>
           </div>
         </section>
@@ -410,38 +420,38 @@
 
         <section class="videos">
           <div class="container">
-            <h2 class="videos__title">VIDEOS</h2>
-            <div class="videos__wrapper">
-              <ul class="news__list news__list--videos">
-                <li class="news__item">
-                  <img class="news__image--video-preview" />
-                  <div class="lable">LABLE</div>
-                  <div class="news__text">
-                    <p class="news__title">LATEST NEWS 1</p>
-                    <p class="news__details">
-                      <span class="news_author">by author</span
-                      ><span class="news__data">2022-11-10</span>
-                    </p>
-                    <p class="news__anons">anontation of news</p>
-                  </div>
-                </li>
-                <li class="news__item">
-                  <img class="news__image--video-preview" />
-                  <div class="lable">LABLE</div>
-                  <p class="news__title">LATEST NEWS 2</p>
+            <!-- <h2 class="videos__title">VIDEOS</h2> -->
+            <!-- <div class="videos__wrapper"> -->
+            <ul class="news__list news__list--videos">
+              <li class="news__item">
+                <img class="news__image--video-preview" />
+                <div class="lable">LABLE</div>
+                <div class="news__text">
+                  <p class="news__title">LATEST NEWS 1</p>
                   <p class="news__details">
                     <span class="news_author">by author</span
                     ><span class="news__data">2022-11-10</span>
                   </p>
                   <p class="news__anons">anontation of news</p>
-                </li>
-              </ul>
-            </div>
+                </div>
+              </li>
+              <li class="news__item">
+                <img class="news__image--video-preview" />
+                <div class="lable">LABLE</div>
+                <p class="news__title">LATEST NEWS 2</p>
+                <p class="news__details">
+                  <span class="news_author">by author</span
+                  ><span class="news__data">2022-11-10</span>
+                </p>
+                <p class="news__anons">anontation of news</p>
+              </li>
+            </ul>
+            <!-- </div> -->
           </div>
         </section>
 
         <section class="all-news">
-          <div class="container all-news">
+          <div class="container all-news__wrapper">
             <div class="all-news__block--main">
               <h2 class="all-news__title">ALL NEWS</h2>
               <ul class="news__list news__list--vertical">
@@ -576,7 +586,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer">
+      <div class="container footer__wrapper">
         <div class="main-block">
           <div class="logo--footer">
             <a class="logo__link" href="./index.html"

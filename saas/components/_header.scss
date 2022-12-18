@@ -3,18 +3,25 @@
 .header {
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
-  &__top {
-    display: flex;
-    justify-content: space-between;
+  &--top {
     color: white;
     background-color: var(--section-background-color);
   }
-  &__bottom {
-    display: flex;
-    align-items: baseline;
+  &--bottom {
+    color: #000000;
+    font-weight: 400;
   }
 }
 
+.header__wrapper {
+  display: flex;
+  &--top {
+    justify-content: space-between;
+  }
+  &--bottom {
+    align-items: baseline;
+  }
+}
 /*---OLD---*/
 .link--top-logo {
   @extend %link;

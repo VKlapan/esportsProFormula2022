@@ -56,7 +56,7 @@ p {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -71,6 +71,7 @@ p {
 
 .slider__list {
   display: flex;
+  justify-content: space-around;
   padding: 0px;
   margin-left: auto;
 }
@@ -78,6 +79,7 @@ p {
 .news__list,
 .posts__list {
   display: flex;
+  justify-content: space-between;
   padding: 0px;
 }
 
@@ -163,15 +165,25 @@ p {
   border-bottom: 1px solid #ececec;
 }
 
-.header__top {
-  display: flex;
-  justify-content: space-between;
+.header--top {
   color: white;
   background-color: var(--section-background-color);
 }
 
-.header__bottom {
+.header--bottom {
+  color: #000000;
+  font-weight: 400;
+}
+
+.header__wrapper {
   display: flex;
+}
+
+.header__wrapper--top {
+  justify-content: space-between;
+}
+
+.header__wrapper--bottom {
   align-items: baseline;
 }
 
@@ -323,9 +335,12 @@ p {
 
 /* footer*/
 .footer {
+  background-color: var(--section-background-color);
+}
+
+.footer__wrapper {
   display: flex;
   justify-content: space-around;
-  background-color: var(--section-background-color);
 }
 
 .footer__block--first {
@@ -497,14 +512,11 @@ p {
 }
 
 .flash-news {
-  display: flex;
   background-color: aqua;
 }
 
-.top-news {
+.flash-news__wrapper {
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .top-news__wrapper {
@@ -513,36 +525,45 @@ p {
 }
 
 .latest-news {
-  display: flex;
-  justify-content: space-between;
+  background-color: bisque;
 }
 
 .latest-news__wrapper {
   display: flex;
+  justify-content: space-between;
 }
 
 .all-news {
+  background-color: darkseagreen;
+}
+
+.all-news__wrapper {
   display: flex;
   justify-content: space-between;
 }
 
 .advertise {
-  display: flex;
   background-color: tomato;
 }
 
 .editor-pics {
-  display: flex;
   background-color: aqua;
 }
 
+.slider__navigation {
+  text-align: center;
+}
+
 .categories-top {
-  display: flex;
   background-color: burlywood;
 }
 
-.videos {
+.categories-top__wrapper {
   display: flex;
+  justify-content: space-around;
+}
+
+.videos {
   background-color: aqua;
 }
 /*# sourceMappingURL=main.css.map */
